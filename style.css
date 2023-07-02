@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.tourism-bg{
+    background-image: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/ocean.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+.tourism-card {
+    background: #FFF;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    padding: 10px;
+
+    
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #000;
+    
+    
+
+    
+
+}
+.pragraph {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #0d0d0d;
+    /* padding: 13px; */
+
+}
+
+.button {
+    background-color: #25b1cc;
+    border: none;
+    font-size: 20px;
+    width: 130px;
+    color: #fff;
+    height: 45px;
+    border-radius: 20px;
+    outline: none;
+    
+}
+.favourite-place-bg-container {
+    background-image: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/towerbg.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 1%;
+}
+.favourite-heading {
+    text-align: left;
+    padding: 17px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+}
+.favourite-place-card-container {
+    background-color: #fff;
+    padding: 23px;
+    margin: 2%;
+    border-radius: 10px ;
+    
+    
+    
+}
+.favourite-place-heading {
+    font-size: 30px;
+    font-family: serif;
+    font-weight: bold;
+    color: #0f0e46;
+}
+.favourite-place-card-description {
+    font-size: 20px;
+    font-family: serif;
+    color: #0f0e46;
+}
+.card-image {
+    width: 80px;
+    height: 100px;
+    
+}.detailed-view-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/seabg.png");
+    height: 100vh;
+    background-size: cover;
+  }
+  .detailed-view-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+    padding: 24px;
+  }
+  .detailed-view-card-container {
+    background-color: white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 24px;
+  }
+  .detailed-view-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+  }
+  .detailed-view-card-description {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 13px;
+  }
+  .detailed-view-card-text-container {
+    padding: 16px;
+  }
